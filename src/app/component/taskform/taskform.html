@@ -1,0 +1,13 @@
+<div class="card shadow-sm">
+  <div class="card-body">
+    <h4 class="card-title">Add Task</h4>
+    <div class="input-group">
+      <input 
+        [(ngModel)]="taskTitle"
+        name="taskTitle"
+        class="form-control"
+        placeholder="What to do..." />
+      <button class="btn btn-success" (click)="addTask()">Add</button>
+    </div>
+  </div>
+</div>
